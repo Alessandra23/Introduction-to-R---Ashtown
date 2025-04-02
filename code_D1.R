@@ -254,6 +254,8 @@ m+m
 m*3
 m > 2
 
+m%*%m
+
 # Create a 3x3 matrix
 my_matrix <- matrix(1:9, nrow = 3, ncol = 3, byrow = TRUE)
 my_matrix
