@@ -390,6 +390,13 @@ check_number(0)
 
 # Loops -------------------------------------------------------------------
 
+x <- c(1:5)
+print(x[1])
+print(x[2])
+print(x[3])
+print(x[4])
+print(x[5])
+
 
 # Simple numeric range loop
 for(i in 1:5) {
@@ -399,6 +406,7 @@ for(i in 1:5) {
 for(i in 1:5) {
   print(paste("Iteration", i))
 }
+
 
 # Looping through a vector
 fruits <- c("apple", "banana", "cherry")
@@ -444,7 +452,7 @@ while (count <= 5) {
 }
 
 
-# question 
+# question -----------
 
 numbers <- sample(1:100, 10)
 numbers

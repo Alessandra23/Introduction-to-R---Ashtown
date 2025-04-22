@@ -187,6 +187,16 @@ data2_new <- data2 |>
   mutate_at(c('Person', 'City'), as.factor)
 
 
+
+# 
+data1 |> 
+  dplyr::mutate(Humidity_new= Humidity... /100)
+
+data1 |> 
+  dplyr::mutate_at(c('Seasons', 'Holiday'), as.factor)
+
+
+
 # filter -----
 
 
