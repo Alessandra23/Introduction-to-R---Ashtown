@@ -1,9 +1,5 @@
-# --------------------------------------
-# Two-Way ANOVA in R: Full Example
-# Dataset: ToothGrowth (built-in in R)
-# Factors: supp (supplement type) & dose (dosage level)
-# Dependent Variable: len (tooth length)
-# --------------------------------------
+# Two-Way ANOVA in R: Full Example --------------------------------------
+
 
 
 data("ToothGrowth")
